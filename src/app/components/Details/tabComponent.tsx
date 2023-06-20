@@ -10,7 +10,7 @@ type Props = {
 
 function TabComponent({ backgroundColor ,heading ,image}: Props) {
     return (
-        <div className='flex mx-auto'>
+        <div className='flex'>
 
             <div className={`${backgroundColor} w-[83px] h-[82px] rounded-[20px] mx-2`}>
                 <div className='flex justify-center items-center mt-3'>
