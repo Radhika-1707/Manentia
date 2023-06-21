@@ -8,6 +8,7 @@ import mob2 from "../app/assets/mob2.svg";
 import focus from "../app/assets/focus.svg";
 import Containers from "./components/Container";
 import Company from "./components/Company";
+import Subscribe from "./components/Subscribe";
 
 
 export default function Home() {
@@ -66,9 +67,9 @@ export default function Home() {
 
 
       />
-    <Containers/>
-    <Company/>
-      {/* new letter */}
+      <Containers />
+      <Company />
+      <Subscribe />
       {/* footer */}
     </div>
   );
