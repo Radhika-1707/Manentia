@@ -4,8 +4,8 @@ type Props = {};
 
 function Containers({ }: Props) {
     return (
-        <div className="grid grid-cols-2 mt-[100px] gap-0 w-[85%] mx-auto">
-            <div className="bg-[#F4F4F4] rounded-[20px] w-[572px]  mx-auto pb-10">
+        <div className="grid grid-cols-2 mt-[100px] gap-0 w-[85%] mx-auto md:w-[85%] lg:w-[75%] xl:w-[70%]">
+            <div className="bg-[#F4F4F4] rounded-[20px] w-[572px] md:w-[500px] mx-auto pb-10">
                 <h1 className="text-center  pt-10 text-[25px] font-semibold leading-[42px]">
                     Lorem Ipsum is simply <br /> dummy text.
                 </h1>
@@ -19,7 +19,7 @@ function Containers({ }: Props) {
                     <p className="text-white text-[16px] font-medium"> View More</p>
                 </div>
             </div>
-            <div className="bg-[#1090CB] rounded-[20px] w-[572px]  mx-auto pb-10">
+            <div className="bg-[#1090CB] rounded-[20px] w-[572px] md:w-[500px] mx-auto pb-10">
                 <h1 className="text-center  text-white pt-10 text-[25px] font-semibold leading-[42px]">
                     Lorem Ipsum is simply <br /> dummy text.
                 </h1>

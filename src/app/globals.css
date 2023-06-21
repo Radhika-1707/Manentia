@@ -9,3 +9,14 @@
     margin: 0px;
     
 } */
+.blob{
+    background: radial-gradient(50% 50% at 50% 50%, #FDFFEA 0%, rgba(196, 196, 196, 0) 100%);
+}
+.blob2{
+    background: radial-gradient(72.77% 72.77% at 50% 50%, #DED9FF 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+
+.gradient {
+    background: radial-gradient(rgba(222, 217, 255, 1), rgba(255, 255, 255, 0));
+  }

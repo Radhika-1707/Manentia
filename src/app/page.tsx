@@ -16,7 +16,6 @@ export default function Home() {
   return (
     <div>
       <Header />
-        
         <Hero />
         <Details />
         <MiniHero />
@@ -66,8 +65,6 @@ export default function Home() {
           }
           imageClassName=" "
           smileyBg="bg-[#9208D3]"
-
-
         />
         <Containers />
         <Company />
