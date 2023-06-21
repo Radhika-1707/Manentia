@@ -1,6 +1,5 @@
 import Image, { StaticImageData } from "next/image";
 import React, { ReactNode } from "react";
-import mob1 from '../../assets/mob1.svg'
 type Props = {
     image: StaticImageData
     isImageRight?: boolean

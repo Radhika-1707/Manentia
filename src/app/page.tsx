@@ -6,6 +6,7 @@ import MobileSections from "./components/MobileSections";
 import mob1 from "../app/assets/mob1.svg";
 import mob2 from "../app/assets/mob2.svg";
 import focus from "../app/assets/focus.svg";
+import Containers from "./components/Container";
 
 
 export default function Home() {
@@ -64,7 +65,7 @@ export default function Home() {
 
 
       />
-      {/* two container section */}
+    <Containers/>
       {/* good company */}
       {/* new letter */}
       {/* footer */}
