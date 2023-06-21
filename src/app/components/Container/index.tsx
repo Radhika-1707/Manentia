@@ -4,7 +4,7 @@ type Props = {};
 
 function Containers({ }: Props) {
     return (
-        <div className="grid grid-cols-2 mt-[100px] gap-0 w-[85%] mx-auto md:w-[85%] lg:w-[75%] xl:w-[70%]">
+        <div className="grid grid-cols-2 mt-[100px] gap-0 w-[85%] mx-auto md:w-[85%]  xl:w-[80%]">
             <div className="bg-[#F4F4F4] rounded-[20px] w-[572px] md:w-[500px] mx-auto pb-10">
                 <h1 className="text-center  pt-10 text-[25px] font-semibold leading-[42px]">
                     Lorem Ipsum is simply <br /> dummy text.
@@ -15,7 +15,7 @@ function Containers({ }: Props) {
                     projects. We build and <br />develop mobile applications for several top
                     platforms, <br />including Android & IOS.
                 </p>
-                <div className="bg-[#1090CB] cursor-pointer  rounded-[10px] w-[153px] h-[49px] flex justify-center items-center mx-auto mt-[36px]">
+                <div className="bg-[#1090CB] cursor-pointer heroButton2 hover:scale-110 rounded-[10px] w-[153px] h-[49px] flex justify-center items-center mx-auto mt-[36px]">
                     <p className="text-white text-[16px] font-medium"> View More</p>
                 </div>
             </div>
@@ -29,7 +29,7 @@ function Containers({ }: Props) {
                     projects. We build and <br />develop mobile applications for several top
                     platforms, <br />including Android & IOS.
                 </p>
-                <div className="bg-[#FFFFFF]  cursor-pointer rounded-[10px] w-[153px] h-[49px] flex justify-center items-center mx-auto mt-[36px]">
+                <div className="bg-[#FFFFFF]  cursor-pointer heroButton3 hover:scale-110 rounded-[10px] w-[153px] h-[49px] flex justify-center items-center mx-auto mt-[36px]">
                     <p className="text-[#1090CB] text-[16px] font-medium"> View More</p>
                 </div>
             </div>

@@ -20,3 +20,15 @@
 .gradient {
     background: radial-gradient(rgba(222, 217, 255, 1), rgba(255, 255, 255, 0));
   }
+
+  @layer components {
+    .heroButton {
+        @apply px-3 py-2 hover:border hover:border-[#242424] hover:rounded-md uppercase text-xs tracking-widest text-gray-500 transition-all  hover:border-[#1090CB]/40  hover:text-[#1090CB]
+    }
+    .heroButton2 {
+        @apply px-3 py-2 hover:border hover:border-[#242424] hover:rounded-md uppercase text-xs tracking-widest text-white transition-all  hover:border-[#1090CB]/40  hover:text-white
+    }
+    .heroButton3 {
+        @apply px-3 py-2 hover:border hover:border-[#242424] hover:rounded-md uppercase text-xs tracking-widest  transition-all  hover:border-[#1090CB]/40  hover:text-[#1090CB]
+    }
+}

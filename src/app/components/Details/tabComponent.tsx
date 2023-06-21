@@ -13,8 +13,8 @@ function TabComponent({ backgroundColor ,heading ,image}: Props) {
         <div className='flex items-center  '>
 
             <div className={`${backgroundColor} flex justify-center items-center w-[83px] h-[82px] rounded-[20px] mx-2 `}>
-                <div className=''>
-                    <Image className='' src={image} alt="" height={43} width={43} />
+                <div className='cursor-pointer'>
+                    <Image className='hover:scale-110' src={image} alt="" height={43} width={43}  />
                 </div>
 
             </div>

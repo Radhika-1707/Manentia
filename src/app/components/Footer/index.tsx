@@ -26,18 +26,20 @@ function Footer({ }: Props) {
                 </div>
                 <div className=' flex justify-evenly mt-auto '>
                     <SocialIcon
-                        url='https://facebook.com/jaketrent'
+                        url='https://www.facebook.com/manentiaai/'
                         fgColor='black'
                         bgColor='#FFFFFF'
-                        className='shadow-xl rounded-full'
+                        className='shadow-xl rounded-full hover:scale-150'
                         style={{height:35 , width:35}}
+                        target="_blank"
+
 
                     />
                     <SocialIcon
                         url='https://instagram.com/jaketrent'
                         fgColor='black'
                         bgColor='#FFFFFF'
-                        className='shadow-xl rounded-full'
+                        className='shadow-xl rounded-full hover:scale-150'
                         style={{height:35 , width:35}}
                         
 
@@ -46,16 +48,17 @@ function Footer({ }: Props) {
                         url='https://twitter.com/jaketrent'
                         fgColor='black'
                         bgColor='#FFFFFF'
-                        className='shadow-xl rounded-full'
+                        className='shadow-xl rounded-full hover:scale-150'
                         style={{height:35 , width:35}}
 
 
                     />    <SocialIcon
-                        url='https://linkedin.com/jaketrent'
+                        url='https://www.linkedin.com/company/manentia-ai/'
                         fgColor='black'
                         bgColor='#FFFFFF'
-                        className='shadow-xl rounded-full'
+                        className='shadow-xl rounded-full hover:scale-150'
                         style={{height:35 , width:35}}
+                        target="_blank"
 
 
                     />

@@ -17,7 +17,7 @@ function MobileSections({ image, isImageRight, smileyBg, data, imageClassName }:
 
                         <div className="flex">
 
-                            <div className={` ${smileyBg} w-[58px] h-[58px] rounded-full flex items-center justify-center`}>
+                            <div className={` ${smileyBg} w-[58px] h-[58px] rounded-full flex items-center justify-center  hover:animate-spin`}>
                                 <Image src={"/happy.svg"} alt="" height={30} width={30} />
 
                             </div>
@@ -41,7 +41,7 @@ function MobileSections({ image, isImageRight, smileyBg, data, imageClassName }:
                         </div>
                     </div>
                     <>
-                        <div className="flex justify-start items-center relative">
+                        <div className="flex justify-start items-center relative ">
                             <Image className={`${imageClassName}   `} src={image} alt="" height={511} width={638} />
                             <div className=" absolute  flex  justify-end  w-full opacity-[0.6]  ">
                                 <Image src={"/purple.svg"} alt="" height={105} width={397} />
@@ -65,7 +65,7 @@ function MobileSections({ image, isImageRight, smileyBg, data, imageClassName }:
                     </>
                     <div className="mx-auto mt-[70px]">
                         <div className="flex">
-                            <div className={` ${smileyBg} w-[58px] h-[58px] rounded-full flex items-center justify-center`}>
+                            <div className={` ${smileyBg} w-[58px] h-[58px] rounded-full flex items-center justify-center hover:animate-spin`}>
                                 <Image src={"/happy.svg"} alt="" height={30} width={30} />
                             </div>
                             <div className="mx-3">

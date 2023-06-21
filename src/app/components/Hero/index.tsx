@@ -18,8 +18,8 @@ function Hero({}: Props) {
           platforms,<br/> including Android & IOS.{" "}
         </p>
         <div className="flex gap-4 mt-10">
-            <p className="bg-[#1090CB] rounded-[10px] w-[193px] h-[51px] text-[16px] text-white flex justify-center items-center cursor-pointer">Contact Us</p>
-            <p className="border border-[#1090CB] rounded-[10px] w-[193px] h-[51px] text-[16px] text-[] flex justify-center items-center cursor-pointer">View more</p>
+            <p className="bg-[#1090CB] heroButton2  hover:scale-110 rounded-[10px] w-[193px] h-[51px] text-[16px] text-white flex justify-center items-center cursor-pointer">Contact Us</p>
+            <p className="border heroButton3 hover:scale-110 border-[#1090CB] rounded-[10px] w-[193px] h-[51px] text-[16px] text-[] flex justify-center items-center cursor-pointer">View more</p>
         </div>
       </div>
       <div className="flex p-16 blob">

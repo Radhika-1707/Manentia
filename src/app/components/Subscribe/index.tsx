@@ -11,7 +11,7 @@ function Subscribe({ }: Props) {
 
                 <div className=' flex justify-center'>
                     <input type='text' className='w-[532px]  h-[67px] rounded-[10px] text-start px-5 text-[16px] shadow-md mx-3' placeholder='Enter your email' />
-                    <button className='w-[173px] h-[67px] bg-[#000000] text-[#FFF4F4] uppercase rounded-[10px] text-[16px] font-medium'>Subscribe</button>
+                    <button className='w-[173px] h-[67px] bg-[#000000] text-[#FFF4F4] uppercase rounded-[10px] text-[16px] font-medium hover:scale-110'>Subscribe</button>
                 </div>
             </div>
         </>

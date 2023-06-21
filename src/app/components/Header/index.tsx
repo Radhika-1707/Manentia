@@ -10,11 +10,11 @@ function Header({ }: Props) {
             </div>
             <div className=' flex justify-evenly items-center '>
 
-                    <p className='mx-8  text-base font-medium cursor-pointer text-[#1090CB]'>Home</p>
-                    <p className='mx-8  text-base font-medium cursor-pointer'>About us</p>
-                    <p className='mx-8  text-base font-medium cursor-pointer'>Services</p>
-                    <p className='mx-8  text-base font-medium cursor-pointer'>Blog</p>
-                    <p className='mx-8  text-base font-medium cursor-pointer bg-[#1090CB] rounded-md text-white w-[125px] h-[41px] flex justify-center items-center'>Contact us</p>
+                    <p className='mx-8  text-base font-medium cursor-pointer text-[#1090CB] heroButton'>Home</p>
+                    <p className='mx-8  text-base font-medium cursor-pointer heroButton'>About us</p>
+                    <p className='mx-8  text-base font-medium cursor-pointer heroButton'>Services</p>
+                    <p className='mx-8  text-base font-medium cursor-pointer heroButton'>Blog</p>
+                    <p className='mx-8  text-base font-medium cursor-pointer  bg-[#1090CB] rounded-md text-white w-[125px] h-[41px] flex justify-center items-center'>Contact us</p>
             </div>
         </div>
     )
