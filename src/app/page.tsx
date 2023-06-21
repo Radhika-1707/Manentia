@@ -7,6 +7,7 @@ import mob1 from "../app/assets/mob1.svg";
 import mob2 from "../app/assets/mob2.svg";
 import focus from "../app/assets/focus.svg";
 import Containers from "./components/Container";
+import Company from "./components/Company";
 
 
 export default function Home() {
@@ -66,7 +67,7 @@ export default function Home() {
 
       />
     <Containers/>
-      {/* good company */}
+    <Company/>
       {/* new letter */}
       {/* footer */}
     </div>
